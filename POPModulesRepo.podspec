@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'POPModulesRepo'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'POPModulesRepo'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/JeeneDo/InitPodFrameWork.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.elsxample.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shou1wang@gmail.com' => 'shou1wang@gmail.com' }
   s.source           = { :git => 'https://github.com/JeeneDo/InitPodFrameWork.git', :tag => s.version.to_s }
@@ -31,6 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'POPModulesRepo/Classes/**/*'
+  
+  s.libraries = 'c++'
+
   
   # s.resource_bundles = {
   #   'POPModulesRepo' => ['POPModulesRepo/Assets/*.png']
