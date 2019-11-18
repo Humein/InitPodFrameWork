@@ -1,0 +1,7 @@
+framework module YYKitModulesRepo {
+    
+  umbrella header "YYKitHeader.h"
+  
+  requires objc
+
+}

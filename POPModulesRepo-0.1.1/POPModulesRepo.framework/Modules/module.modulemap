@@ -1,0 +1,6 @@
+framework module POPModulesRepo {
+    umbrella header "POP.h"
+    
+    exclude header "POPAnimationPrivate.h"
+    exclude header "POPAnimatorPrivate.h"
+}

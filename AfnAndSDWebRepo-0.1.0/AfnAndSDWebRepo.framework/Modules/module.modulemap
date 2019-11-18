@@ -1,0 +1,7 @@
+framework module AfnAndSDWebRepo {
+    
+  umbrella header "AfnAndSDWebImageHeader.h"
+  
+  requires objc
+
+}
